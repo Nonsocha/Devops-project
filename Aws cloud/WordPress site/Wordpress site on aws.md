@@ -345,7 +345,7 @@ Leave other settings as default.
 
 - Review your settings and click "Create database".
 # Install MySQL 5.7 and Connect to an RDS Database 
-see link for the mysql command. 
+[see link for mysql command](https://github.com/Nonsocha/Devops-project/blob/main/Aws%20cloud/set-up%20amazon%20rds%20%20with%20mysql%20engine.md)
 
 ## Step 1: SSH into the EC2 Instance
 - Open Terminal:
