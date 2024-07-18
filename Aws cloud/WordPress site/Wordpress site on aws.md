@@ -27,7 +27,7 @@
 ### Create a private Subnet
 - Give the second subnet a name Private Subnet.
 - Attache an existing VPC to the subnet
-  " WordPress-VPC"
+  " Demo-VPC"
 - Choose an Availability Zone: Choose one (e.g., us-west-2a)
 - Allocate an IPv4 CIDR block: 10.0.2.0/24
 - Click on "Create subnet".
@@ -48,7 +48,7 @@ Assign an existing vpc to the route-table "DemoVPC"
 - Click on "Create internet gateway".
 - Select the newly created Internet Gateway and - click "Attach to VPC".
 ![](./img/internet%20gatway.PNG)
-- Choose WordPress-VPC and click "Attach".
+- Choose Demo-VPC and click "Attach".
 ### Update Route Table:
 
 - Go back to the Route Tables section.
@@ -71,7 +71,7 @@ Assign an existing vpc to the route-table "DemoVPC"
 - Go to the Route Tables section in the VPC Dashboard.
 - Click on "Create Route Table".
 - Give the route-table a name: Private-Route-Table
-- Attach an existing VPC "WordPress-VPC"
+- Attach an existing VPC "Demo-VPC"
 - Click on "Create route table".
 - Update Route Table:
 
@@ -345,7 +345,7 @@ Leave other settings as default.
 
 - Review your settings and click "Create database".
 # Install MySQL 5.7 and Connect to an RDS Database 
-see link for the mysql command. 
+[see link for mysql command](https://github.com/Nonsocha/Devops-project/blob/main/Aws%20cloud/set-up%20amazon%20rds%20%20with%20mysql%20engine.md)
 
 ## Step 1: SSH into the EC2 Instance
 - Open Terminal:
