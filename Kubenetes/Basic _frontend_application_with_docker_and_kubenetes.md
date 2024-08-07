@@ -4,21 +4,24 @@
 
  ### Task 1: Set up The Project
  - Create a new directory
--![](./img/Capture.PNG)
+
+   ![](./img/Capture.PNG)
 
 - inside the directory create an Html file and Css file
   
+  #### index.html
   ![Htmlfile](./img/html.PNG)
 
-  ![](./img/Css.PNG)
+  #### style.css
+    ![](./img/Css.PNG)
 
-  ### Task 2: Initialize a git repository
+### Task 2: Initialize a git repository
   - To initialize git in a repository use the command below:
      
      `git init`
- ### Task 3:
+### Task 3:
  Add and commit the code to the repository.
- ![](./img/add.PNG)
+        ![](./img/add.PNG)
 ### Task 4 : Dockerize The Application
 ### Create a dockerfile specifying Nginx as the base image
 
@@ -79,7 +82,7 @@ mv ./kind /usr/local/bin/kind
 ### For Windows
 
 ### Install Go on Windows.
-### 1) Download the Go installer:
+### 1 Download the Go installer:
 - Go to the official Go download page.
 - Download the Windows installer (.msi file) for the latest version of Go.
 ### Run the installer:
@@ -92,9 +95,8 @@ mv ./kind /usr/local/bin/kind
 
 Verify that Go is installed correctly by running the following command:
 
-`
-go version
-`
+
+`go version`
 
 ### Adding Go to the PATH
 - The Go installer typically adds Go to the system PATH automatically. If for some reason this doesn’t happen, you can add it manually:
@@ -115,8 +117,8 @@ go version
 
 - Run the following command to ensure go is in your PATH:
 
-    `go version
-    `
+    `go version`
+
   ![](./img/GO.PNG)
 
 ## Install kind with Go  
@@ -208,8 +210,9 @@ To access your application locally by port-forwarding to the service, follow the
 2. Port-Forward to the Service:
    - Use the kubectl port-forward command to forward a local port to the service's port. For example, if your service is named my-demo-service and it exposes port 80, you can forward it to a local port, like 8080:
 
-   ```kubectl port-forward service/my-nginx-service 3000:80 ```
-   ![](./img/port2.PNG)
+     ```kubectl port-forward service/my-nginx-service 3000:80 ```
+
+     ![](./img/port2.PNG)
 
     This command forwards port 8080 on your local machine to port 80 on the my-nginx-service.
 
@@ -218,8 +221,8 @@ To access your application locally by port-forwarding to the service, follow the
 
   `http://127.0.0.1:3000`
 
-This should allow you to view your simple frontend application.
-![](./img/website.PNG)
+  This should allow you to view your simple frontend application.
+     ![](./img/website.PNG)
 
 If you encounter any issues, make sure your service is running and correctly configured. Additionally, ensure no other process is using the local port you are trying to forward to.
 
