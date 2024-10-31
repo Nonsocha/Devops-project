@@ -10,7 +10,7 @@ Add the following secrets in your GitHub repository settings:
 ### Clone your github repository
 - Create a github repository and give it a name .
 - Go to the terminal and clone the github repository
-- Change directory to working directoryin your github
+- Change directory to working directory in your github
 ### Create a Nodejs file
 - Create an index.html file
 - create a server.js file
